@@ -1,0 +1,29 @@
+.modal.show {
+    display: block;
+}
+
+.custom-card-body {
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.custom-select {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.custom-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.pfp {
+    width: 100px;
+    height: 100px;
+}
