@@ -52,7 +52,7 @@ export default {
                 });
         },
         deleteTrack(trackId) {
-            axiosClient.delete(`/manage_track/${trackId}`)
+            axiosClient.delete(`/remove_track/${trackId}`)
                 .then(response => {
                     this.fetchTracks(); 
                 })
